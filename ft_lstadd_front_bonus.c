@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstadd_front_bonus.c                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: brivera <brivera@student.42madrid.com>     +#+  +:+       +#+        */
+/*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/09 15:26:58 by brivera           #+#    #+#             */
-/*   Updated: 2024/10/09 15:28:26 by brivera          ###   ########.fr       */
+/*   Created: 2025/05/08 22:18:49 by isanz-mu          #+#    #+#             */
+/*   Updated: 2025/05/08 22:24:42 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

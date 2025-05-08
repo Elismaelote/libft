@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: brivera <brivera@student.42madrid.com      +#+  +:+       +#+        */
+/*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/20 11:52:27 by brivera           #+#    #+#             */
-/*   Updated: 2024/09/25 12:04:57 by brivera          ###   ########.fr       */
+/*   Created: 2025/05/08 22:18:14 by isanz-mu          #+#    #+#             */
+/*   Updated: 2025/05/08 22:24:42 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "libft.h"
 

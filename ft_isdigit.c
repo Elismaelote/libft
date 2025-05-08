@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: brivera <brivera@student.42madrid.com      +#+  +:+       +#+        */
+/*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/17 18:17:55 by brivera           #+#    #+#             */
-/*   Updated: 2024/09/25 10:09:39 by brivera          ###   ########.fr       */
+/*   Created: 2025/05/08 22:18:19 by isanz-mu          #+#    #+#             */
+/*   Updated: 2025/05/08 22:24:42 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "libft.h"
 

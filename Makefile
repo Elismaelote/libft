@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: brivera <brivera@student.42madrid.com>     +#+  +:+       +#+         #
+#    By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/10/09 11:36:05 by brivera           #+#    #+#              #
-#    Updated: 2024/10/12 18:28:05 by brivera          ###   ########.fr        #
+#    Created: 2025/05/08 22:23:29 by isanz-mu          #+#    #+#              #
+#    Updated: 2025/05/08 22:23:39 by isanz-mu         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
