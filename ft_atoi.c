@@ -6,10 +6,9 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 11:34:02 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/08 11:38:26 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/08 23:13:05 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include "libft.h"
 
@@ -18,7 +17,6 @@ int	ft_atoi(const char *str)
 	int	num;
 	int	sig;
 	int	i;
-
 
 	num = 0;
 	sig = 1;
