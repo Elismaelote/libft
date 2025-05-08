@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_bzero.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: brivera <brivera@student.42madrid.com>     +#+  +:+       +#+        */
+/*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/09/20 16:23:20 by brivera           #+#    #+#             */
-/*   Updated: 2024/10/09 17:46:03 by brivera          ###   ########.fr       */
+/*   Created: 2025/05/08 11:37:20 by isanz-mu          #+#    #+#             */
+/*   Updated: 2025/05/08 11:38:26 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "libft.h"
 
