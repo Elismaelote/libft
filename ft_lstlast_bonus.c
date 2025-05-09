@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_lstlast_bonus.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: brivera <brivera@student.42madrid.com>     +#+  +:+       +#+        */
+/*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/09 15:27:39 by brivera           #+#    #+#             */
-/*   Updated: 2024/10/09 15:28:17 by brivera          ###   ########.fr       */
+/*   Created: 2025/05/09 12:21:36 by isanz-mu          #+#    #+#             */
+/*   Updated: 2025/05/09 12:21:39 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
