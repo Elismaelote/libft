@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:22:00 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/17 17:59:46 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/17 19:26:08 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,10 +34,8 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 		dest[lendest + i] = '\0';
 	return (lendest + lensrc);
 }
-
-
 /*#include <stdio.h>
-#include <string.h> // para probar si no está en funcionamiento libft.h cambiar ft_strlen sin ft
+
 int main(void)
 {
 	char buffer[20] = "Hola, ";
