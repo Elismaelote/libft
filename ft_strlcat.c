@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:22:00 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:22:50 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/17 17:59:46 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,26 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 		dest[lendest + i] = '\0';
 	return (lendest + lensrc);
 }
+
+
+/*#include <stdio.h>
+#include <string.h> // para probar si no está en funcionamiento libft.h cambiar ft_strlen sin ft
+int main(void)
+{
+	char buffer[20] = "Hola, ";
+	const char *texto = "mundo!";
+
+	size_t resultado = ft_strlcat(buffer, texto, sizeof(buffer));
+
+	printf("Resultado: %zu\n", resultado);
+	printf("Cadena concatenada: '%s'\n", buffer);
+
+	// Probamos con un tamaño más pequeño para ver truncamiento
+	char buffer2[10] = "Hola, ";
+	resultado = ft_strlcat(buffer2, texto, sizeof(buffer2));
+
+	printf("Resultado truncado: %zu\n", resultado);
+	printf("Cadena truncada: '%s'\n", buffer2);
+
+	return 0;
+}*/

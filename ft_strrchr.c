@@ -6,11 +6,12 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:22:40 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:22:58 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/17 18:41:53 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 
 char	*ft_strrchr(const char *s, int c)
 {
@@ -27,3 +28,18 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
+/*#include <stdio.h>
+
+int main()
+{
+    const char *str = "hola mundo";
+    char c = 'n';
+
+    char *res = ft_strrchr(str, c);
+    if (res)
+        printf("Encontrado '%c' en: %s\n", c, res);
+    else
+        printf("No se encontró '%c'\n", c);
+
+    return 0;
+}*/

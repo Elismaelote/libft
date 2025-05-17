@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:19:30 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:22:35 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/17 16:06:22 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,18 @@ void	*ft_memset(void *s, int c, size_t n)
 	}
 	return (s);
 }
+/*#include <stdio.h>
+
+int main()
+{
+    char mensaje[20] = "Hola Mundo";
+    
+    printf("Antes: %s\n", mensaje);
+
+    // Llenamos los 5 primeros caracteres con '*'
+    ft_memset(mensaje, '*', 5);
+
+    printf("Después: %s\n", mensaje);
+
+    return 0;
+}*/
