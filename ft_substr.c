@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:22:52 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:23:01 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 15:32:57 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,15 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substring[i] = '\0';
 	return (substring);
 }
+/*#include <stdio.h>
+
+int main(void)
+{
+	char *original = "Hola, mundo";
+	char *resultado = ft_substr(original, 2, 8);
+
+	printf("%s\n", resultado);
+
+	free(resultado);
+	return 0;
+}*/

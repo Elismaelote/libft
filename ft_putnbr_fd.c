@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:19:54 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:22:39 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 16:50:59 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,24 @@ void	ft_putnbr_fd(int n, int fd)
 	else
 		ft_putchar_fd(n + 48, fd);
 }
+/*#include <stdio.h>
+
+int	main(void)
+{
+	ft_putnbr_fd(0, 1);
+	ft_putchar_fd('\n', 1);
+
+	ft_putnbr_fd(-42, 1);
+	ft_putchar_fd('\n', 1);
+
+	ft_putnbr_fd(2147483647, 1);
+	ft_putchar_fd('\n', 1);
+
+	ft_putnbr_fd(-2147483648, 1);
+	ft_putchar_fd('\n', 1);
+
+	ft_putnbr_fd(123456789, 1);
+	ft_putchar_fd('\n', 1);
+
+	return (0);
+}*/

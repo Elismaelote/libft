@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:22:46 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:23:00 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 15:49:49 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,13 @@ char	*ft_strtrim(char const *s1, char const *set)
 	s3 = ft_substr(s1, i, len + 1);
 	return (s3);
 }
+/*#include <stdio.h>
+
+int main(void)
+{
+	char *str = "+++Hola Mundo+++";
+	char *set = "+";
+	char *resultado = ft_strtrim(str, set);
+	printf("%s\n", resultado);
+	return (0);
+}*/

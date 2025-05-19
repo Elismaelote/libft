@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:19:02 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:22:22 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 14:40:56 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,17 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+/*#include <stdio.h>
+
+int main(void)
+{
+	char texto[] = "Hola";
+	char *resultado = ft_memchr(texto, 's', 4);
+
+	if (resultado)
+		printf("%c\n", *resultado);
+	else
+		printf("No\n");
+
+	return 0;
+}*/

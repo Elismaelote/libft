@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:19:11 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 13:04:36 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 14:46:05 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,14 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+/*#include <stdio.h>
+
+int	main(void)
+{
+	char str1[] = "Hola";
+	char str2[] = "Holb";
+
+	printf("%d\n", ft_memcmp(str1, str2, 4));
+
+	return 0;
+}*/

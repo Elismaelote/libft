@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:20:46 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:22:45 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 15:23:11 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,11 @@ char	*ft_strdup(const char *str)
 	ps[i] = '\0';
 	return (ps);
 }
+/*#include <stdio.h>
+
+int main(void)
+{
+    char *copia = ft_strdup("Hola mundo");
+    printf("%s\n", copia);
+    return 0;
+}*/

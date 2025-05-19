@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:18:35 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:23:10 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 16:12:59 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -75,3 +75,15 @@ char	*ft_itoa(int n)
 	strnum[num] = '\0';
 	return (strnum);
 }
+/*#include <stdio.h>
+
+int main(void)
+{
+    int n = 1234;
+    char *str = ft_itoa(n);
+
+    printf("%s\n", str);
+
+    free(str);
+    return 0;
+}*/

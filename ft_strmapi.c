@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:22:23 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:22:53 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 16:28:01 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,21 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	newstrs[len] = '\0';
 	return (newstrs);
 }
+/*#include <stdio.h>
+char ft_toupper_custom(unsigned int i, char c)
+{
+    (void)i;
+    if (c >= 'a' && c <= 'z')
+        return c - 32;
+    return c;
+}
+int main(void)
+{
+	const char *str = "hola mundo";
+	char *result = ft_strmapi(str, ft_toupper_custom);
+
+	printf("%s\n", result);
+
+	free(result);
+	return 0;
+}*/

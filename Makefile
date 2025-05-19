@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: isanz-mu < isanz-mu@student.42madrid.co    +#+  +:+       +#+         #
+#    By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/05/08 22:23:29 by isanz-mu          #+#    #+#              #
-#    Updated: 2025/05/14 19:29:58 by isanz-mu         ###   ########.fr        #
+#    Updated: 2025/05/19 14:30:11 by isanz-mu         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -35,12 +35,12 @@ $(NAME): $(OBJ)
 	$(CC) $(CFLAGS) -c $< -o $@
 
 clean:
-	rm -f $(OBJ) $(BOBJ)
+	rm -f $(OBJ)
 
 fclean: clean
 	rm -f $(NAME)
 
 re: fclean all
 
-.PHONY: all bonus clean fclean re rebonus
+.PHONY: all clean fclean re
 

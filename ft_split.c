@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:20:32 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:22:42 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 16:00:34 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -91,3 +91,16 @@ char	**ft_split(char const *s, char c)
 		return (NULL);
 	return (strs);
 }
+/*#include <stdio.h>
+
+char **ft_split(char const *s, char c);
+
+int main(void)
+{
+	char **resultado = ft_split("Hola,mundo,desde,42", ',');
+	printf("%s\n", resultado[0]);
+	printf("%s\n", resultado[1]);
+	printf("%s\n", resultado[2]);
+	printf("%s\n", resultado[3]);
+	return 0;
+}*/

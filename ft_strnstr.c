@@ -6,7 +6,7 @@
 /*   By: isanz-mu <isanz-mu@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/08 22:22:34 by isanz-mu          #+#    #+#             */
-/*   Updated: 2025/05/09 12:22:57 by isanz-mu         ###   ########.fr       */
+/*   Updated: 2025/05/19 14:56:22 by isanz-mu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,3 +33,11 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t n)
 	}
 	return (NULL);
 }
+/*#include <stdio.h>
+
+int main()
+{
+	char *resultado = ft_strnstr("hola mundo", "mun", 10);
+	printf("%s\n", resultado);
+	return 0;
+}*/
